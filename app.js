@@ -1,25 +1,8 @@
-// Manipulação de textos JS
-
-// let titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do número secreto';
-
-// let paragrafo = document.querySelector('p');
-// paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
-
-// função sem parametro e sem retorno JS
-// sempre que criarmos uma função ela deve começar com function e deve ter o nome descritivo com a sua função
-
-// function verificarChute() {
-//     console.log('O botão foi clicado!');
-// }
-
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
-
-// funções com parametros
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
